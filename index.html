@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doğu | Kişisel Web Sitesi</title>
+    <link rel="icon" type="image/jpeg" href="resimler/maskot.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sabit Üst Menü -->
+    <header class="site-header">
+        <nav class="navbar" aria-label="Ana Gezinti">
+            <a href="#kapak" class="nav-logo">DOĞU</a>
+            <ul class="nav-links">
+                <li><a href="#kapak">Kapak</a></li>
+                <li><a href="#hakkimda">Hakkımda</a></li>
+                <li><a href="#ilgi-alanlari">İlgi Alanlarım</a></li>
+                <li><a href="#iletisim">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Kapak Bölümü (Tam Ekran Yüksekliğinde) -->
+        <section id="kapak" class="section-kapak">
+            <div class="kapak-icerik">
+                <div class="kapak-gorsel-kapsayici">
+                    <img src="resimler/kapak.jpg" alt="Doğal bir manzaraya bakan, sırt çantalı sevimli keçe kaplumbağa ve müzik, spor ile yemek alanları" class="kapak-gorseli">
+                </div>
+                <div class="kapak-metin-kutusu">
+                    <span class="etiket">Kişisel Web Sitesi</span>
+                    <h1 class="ana-baslik">Merhaba, Ben Doğu</h1>
+                    <p class="tanitim-metni">Yazılım, tasarım ve yaratıcı üretim tutkusuyla dijital dünyada sade ve özgün deneyimler inşa ediyorum.</p>
+                    <div class="kapak-butonlar">
+                        <a href="#hakkimda" class="brutal-btn brutal-btn-vurgu">Hakkımda Daha Fazla</a>
+                        <a href="#iletisim" class="brutal-btn">İletişime Geç</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hakkımda Bölümü -->
+        <section id="hakkimda" class="section-standart">
+            <div class="konteyner">
+                <div class="bolum-baslik-alani">
+                    <h2 class="bolum-basligi">Hakkımda</h2>
+                </div>
+                <div class="hakkimda-kutusu">
+                    <div class="maskot-kapsayici">
+                        <img src="resimler/maskot.jpg" alt="Doğu'nun sevimli yeşil ve bordo desenli keçe kaplumbağa maskotu" class="maskot-gorseli">
+                    </div>
+                    <div class="hakkimda-metin">
+                        <p class="hakkimda-paragraf">Merhaba, ben Doğu; yazılım geliştirme ve yaratıcı dijital projeler üretme konusunda tutkuluyum. Projelerimde hem sade hem de işlevsel ve estetik kullanıcı deneyimleri sunmaya odaklanıyorum. Sürekli yeni teknolojiler öğrenerek kendimi geliştirmeyi ve dijital dünyada kalıcı izler bırakmayı seviyorum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- İlgi Alanlarım Bölümü -->
+        <section id="ilgi-alanlari" class="section-standart">
+            <div class="konteyner">
+                <div class="bolum-baslik-alani">
+                    <h2 class="bolum-basligi">İlgi Alanlarım</h2>
+                </div>
+                <div class="kartlar-izgara">
+                    <!-- Kart 1: Müzik -->
+                    <article class="ilgi-karti">
+                        <div class="kart-gorsel-kutusu">
+                            <img src="resimler/kart-1.jpg" alt="Müzik aleti çalarak müzikle ilgilenen sevimli keçe kaplumbağa figürü" class="kart-gorseli">
+                        </div>
+                        <div class="kart-govde">
+                            <h3 class="kart-baslik">Müzik</h3>
+                            <p class="kart-aciklama">Ritimler ve melodilerle üretmek, zihnimi dinlendiren ve yaratıcılığımı besleyen en önemli tutkularımdan biri.</p>
+                        </div>
+                    </article>
+
+                    <!-- Kart 2: Spor -->
+                    <article class="ilgi-karti">
+                        <div class="kart-gorsel-kutusu">
+                            <img src="resimler/kart-2.jpg" alt="Sahada egzersiz ve spor aktiviteleri yapan sevimli keçe kaplumbağa figürü" class="kart-gorseli">
+                        </div>
+                        <div class="kart-govde">
+                            <h3 class="kart-baslik">Spor</h3>
+                            <p class="kart-aciklama">Düzenli hareket etmek, sporun getirdiği disiplin ve dinamizm hem bedensel hem zihinsel odaklanmamı güçlendiriyor.</p>
+                        </div>
+                    </article>
+
+                    <!-- Kart 3: Yemek -->
+                    <article class="ilgi-karti">
+                        <div class="kart-gorsel-kutusu">
+                            <img src="resimler/kart-3.jpg" alt="Piknik sofrasında lezzetli yemekler yiyen sevimli keçe kaplumbağa figürü" class="kart-gorseli">
+                        </div>
+                        <div class="kart-govde">
+                            <h3 class="kart-baslik">Yemek</h3>
+                            <p class="kart-aciklama">Farklı lezzetler keşfetmek ve mutfakta yeni tarifler denemek benim için keyifli bir üretkenlik alanı.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- İletişim Bölümü -->
+        <section id="iletisim" class="section-standart">
+            <div class="konteyner">
+                <div class="bolum-baslik-alani">
+                    <h2 class="bolum-basligi">İletişim</h2>
+                </div>
+                <div class="iletisim-kutusu">
+                    <p class="iletisim-tanitim">Yeni projeler, iş birlikleri veya sadece merhaba demek için aşağıdaki bağlantılardan bana ulaşabilirsiniz:</p>
+                    <div class="iletisim-butonlar">
+                        <a href="mailto:dogu@example.com" class="brutal-btn brutal-btn-vurgu">E-posta Gönder</a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="brutal-btn">GitHub Profili</a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="brutal-btn">LinkedIn Profili</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Alt Bilgi / Dipnot -->
+    <footer class="site-footer">
+        <div class="konteyner">
+            <p class="footer-not">Bu sitedeki görseller yapay zekâ ile üretildi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
